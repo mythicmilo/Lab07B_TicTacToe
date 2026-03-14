@@ -6,8 +6,8 @@ import java.awt.event.ActionListener;
 public class TicTacToeBoard
 {
     private TicTacToeTileBtn[][] board;
-    String player = "X";
-    int moveCnt = 0;
+    private String player = "X";
+    private int moveCnt = 0;
     private final int ROW = 3;
     private final int COL = 3;
     private final int MOVES_FOR_WIN = 5;
