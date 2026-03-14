@@ -6,7 +6,6 @@ import java.awt.event.ActionListener;
 public class TicTacToeBoard
 {
     private TicTacToeTileBtn[][] board;
-    private JPanel boardPnl;
     String player = "X";
     int moveCnt = 0;
     private final int ROW = 3;
@@ -16,7 +15,6 @@ public class TicTacToeBoard
 
     public TicTacToeBoard(JPanel boardPnl)
     {
-        this.boardPnl = boardPnl;
         board = new TicTacToeTileBtn[3][3];
         ActionListener btnListener = new ActionListener()
         {
